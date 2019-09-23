@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/layoutChvId"
+    app:cardBackgroundColor="@color/colorCard"
+    app:cardCornerRadius="7dp"
+    android:layout_margin="10dp"
+    app:cardElevation="7dp">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+
+        <TextView
+            android:id="@+id/textCHVname"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="TextView"
+            android:textStyle="bold"
+            android:padding="10dp"
+            android:textSize="50sp"/>
+
+        <TextView
+            android:id="@+id/textCHVphone"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="TextView"
+            android:textStyle="italic"
+            android:padding="10dp"
+            android:textSize="30sp"/>
+
+
+    </LinearLayout>
+</androidx.cardview.widget.CardView>
