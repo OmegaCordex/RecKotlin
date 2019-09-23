@@ -16,6 +16,8 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
 
+        //These are my inits
+
         var amagoroNames = resources.getStringArray(R.array.Amagoro)
         var amoniNames = resources.getStringArray(R.array.Amoni)
         var modingNames = resources.getStringArray(R.array.Moding)
