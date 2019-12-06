@@ -18,6 +18,10 @@ class MainActivity : AppCompatActivity() {
 
         //These are my inits
 
+        //Another comment
+
+        //Only in Branch_test
+
         var amagoroNames = resources.getStringArray(R.array.Amagoro)
         var amoniNames = resources.getStringArray(R.array.Amoni)
         var modingNames = resources.getStringArray(R.array.Moding)
